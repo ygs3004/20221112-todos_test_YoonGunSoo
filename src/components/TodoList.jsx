@@ -17,7 +17,7 @@ function TodoList({ todos, onRemove, onToggle }) {
 }
 
 const TodoListBlock = styled.div`
-  width: 70%;
+  width: 65%;
   font-size: 1.5rem;
 
   flex: 1;

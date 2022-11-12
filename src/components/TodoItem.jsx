@@ -26,7 +26,7 @@ const TodoText = styled.div`
   text-decoration: ${(props) => !props.done && "line-through"};
   opacity: ${(props) => !props.done && "0.3"};
   flex: 1;
-  font-size: 1.5rem;
+  font-size: 1rem;
 `;
 
 const CheckBtn = styled.div`
