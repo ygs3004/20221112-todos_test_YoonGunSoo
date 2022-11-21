@@ -1,4 +1,4 @@
-import { children, useRef, useState } from "react";
+import { Children, useRef, useState } from "react";
 import styled from "styled-components";
 import "./App.css";
 import TodoInputBox from "./components/TodoInputBox";
@@ -49,9 +49,9 @@ function App() {
 
   return (
     <TodoTemplate>
-      <TodoTitle>{children}</TodoTitle>
+      <TodoTitle>{Children}</TodoTitle>
       <TodoList todos={todos} onRemove={onRemove} onToggle={onToggle}>
-        {children}
+        {Children}
       </TodoList>
       <TodoInputBox addTodo={addTodo} />
     </TodoTemplate>
